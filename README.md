@@ -1,5 +1,30 @@
 # Ryzen SMU
 
+## Maintenance instructions
+
+This repository was created to maintain `ryzen_smu` module for NixOS, forked from https://gitlab.com/leogx9r/ryzen_smu/
+
+### Maintainers
+
+- [@Cryolitia](https://github.com/Cryolitia)
+- [@PhDyellow](https://github.com/PhDyellow)
+
+### Upstreams
+
+- https://gitlab.com/leogx9r/ryzen_smu
+- https://gitlab.com/mann1x/ryzen_smu
+- https://gitlab.com/moson-mo/ryzen_smu
+- https://github.com/amkillam/ryzen_smu
+- https://gitlab.com/berglh/ryzen_smu
+
+### Changes since original repository
+
+- [Add Nix flake for develop](https://github.com/Cryolitia/ryzen_smu/commit/a7e08a0a8c785b343c9c4e74baaf23bd6918a7b0)
+- [Add Rembrandt and Phoenix support](https://gitlab.com/leogx9r/ryzen_smu/-/merge_requests/12)
+- [Make module files world readable](https://gitlab.com/leogx9r/ryzen_smu/-/merge_requests/13)
+
+---
+
 <img src="pics/preview1.jpg" width="400" height="650"> <img src="pics/preview2.jpg" width="400" height="650">
 
 <small>*N.B. Images above shows the potential capabilities of this driver, retrieved using the
