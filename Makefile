@@ -5,7 +5,7 @@ DKMS_ROOT_PATH			:= /usr/src/$(MOD)-$(VERSION)
 
 KERNEL_MODULES			:= /lib/modules/$(TARGET)
 
-ifneq ("",$(KERNEL_BUILD_PATH))
+ifneq (,$(KERNEL_BUILD_PATH))
 	KERNEL_BUILD		:= $(KERNEL_BUILD_PATH)
 else
 ifneq ("","$(wildcard /usr/src/linux-headers-$(TARGET)/*)")
